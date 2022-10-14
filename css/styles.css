@@ -1,0 +1,39 @@
+/* Колір основного тексту color: #212121; */
+/* Вторинний колір тексту color: #757575; */
+/* Кольори логотипу у header color: #000000; та #2196F3; */
+/* 
+Кольори посилань на сторінки у header:
+Основний - color: #212121;
+:hover color: #2196F3 (accent);
+ */
+/* 
+Кольори посилань-контактів у header:
+Основний - color: #757575;
+:hover color: #2196F3 (accent);
+ */
+/* Колір заголовків секцій color: #212121; */
+/* Колір заголовку секції Hero (білий) color: #FFFFFF; */
+/* Колір имені кнопки секції Hero (білий) color: #FFFFFF; */
+/* Кольори логотипу у footer (білий) color: #FFFFFF; та #2196F3; */
+/* 
+Колір адрес у footer (білий) color: #FFFFFF;
+Колір посилань e-mail і телефон (Hex #FFFFFF 60%) RGB color: rgba(255, 255, 255, 0.6)
+ */
+/* Background-color button in the Section Hero background: #2196F3; (accent) */
+/* Background-color header color: #ECECEC; */
+/* Background-color section Hero color: #2F303A; */
+/* Background-color section "Hang" none */
+/* Background-color section "What are we doing" none */
+/* Background-color section "Our team" color: #F5F4FA; */
+/* Background-color footer color: #2F303A; */
+/* Колір основного тексту section Portfolio color: #212121; */
+/* Вторинний колір тексту section Portfolio color: #757575; */
+/* Кольори посилань section Portfolio:
+   Основний - color: #212121;
+   :focus - color: #FFFFFF; */
+/* Background-color посилань section Portfolio:
+   Основний - color: #F5F4FA;
+   :hover, :focus - color: #2196F3; */
+/* Background-color containers section Portfolio color: #FFFFFF; */
+/* Color border containers section Portfolio color: #EEEEEE;
+ */
