@@ -7,7 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="link-decoration">
     <!-- Header -->
     <header class="haeder-page">
       <!-- Navigation -->
@@ -17,23 +17,25 @@
           ><span class="logo-web">Web</span>Studio</a
         >
         <!-- Navigation to other pages -->
-        <ul class="nav-ul-site">
-          <!-- Додати підсвічування слів при наведенні курсору мищі -->
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <ul class="nav-ul-site list">
+          <!-- Є ефект :hover -->
+          <li><a href="./index.html" class="link">Студія</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+          <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
       <!-- Сontacts -->
-      <ul class="header-contacts">
+      <ul class="header-contacts list">
         <!-- Додати підсвічування слів при наведенні курсору мищі -->
         <li>
           <!-- Посилання на почтовий клієнт -->
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
           <!-- Посилання на додаток для телефонних дзвінків -->
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -41,39 +43,40 @@
     <main>
       <!-- Block Hero -->
       <!-- Portfolio content -->
-      <section>
-        <h1>Портфоліо</h1>
-        <ul>
-          <li><a href=""></a>Усі</li>
-          <li><a href=""></a>Веб-сайти</li>
-          <li><a href=""></a>Додатки</li>
-          <li><a href=""></a>Дизайн</li>
-          <li><a href=""></a>Маркетинг</li>
+      <section class="saction">
+        <h1 class="hero-portfolio-title">Портфоліо</h1>
+        <ul class="list link-decoration">
+          <li><a href="" class="button">Усі</a></li>
+          <li><a href="" class="button">Веб-сайти</a></li>
+          <li><a href="" class="button">Додатки</a></li>
+          <li><a href="" class="button">Дизайн</a></li>
+          <li><a href="" class="button">Маркетинг</a></li>
         </ul>
-        <ul>
+        <!-- Portfolio containers -->
+        <ul class="list container-border">
           <li>
             <img src="./images/website-teсhno.jpg" alt="website-teсhno" />
-            <h2>Технокряк</h2>
+            <h2 class="container-title">Технокряк</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
             <img src="./images/design-poster.jpg" alt="design-poster" />
-            <h2>Постер New Orlean vs Golden Star</h2>
+            <h2 class="container-title">Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/app-seafoot.jpg" alt="app-seafoot" />
-            <h2>Ресторан Seafood</h2>
+            <h2 class="container-title">Ресторан Seafood</h2>
             <p>Додаток</p>
           </li>
           <li>
             <img src="./images/marketing-prime.jpg" alt="marketing-prime" />
-            <h2>Проєкт Prime</h2>
+            <h2 class="container-title">Проєкт Prime</h2>
             <p>Маркетинг</p>
           </li>
           <li>
             <img src="./images/app-boxes.jpg" alt="app-boxes" />
-            <h2>Проєкт Boxes</h2>
+            <h2 class="container-title">Проєкт Boxes</h2>
             <p>Додаток</p>
           </li>
           <li>
@@ -81,17 +84,17 @@
               src="./images/website-inspiration.jpg"
               alt="website-inspiration"
             />
-            <h2>Inspiration has no Borders</h2>
+            <h2 class="container-title">Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
             <img src="./images/design-edition.jpg" alt="design-edition" />
-            <h2>Видання Limited Edition</h2>
+            <h2 class="container-title">Видання Limited Edition</h2>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/marketing-lab.jpg" alt="marketing-lab" />
-            <h2>Проєкт LAB</h2>
+            <h2 class="container-title">Проєкт LAB</h2>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -99,33 +102,42 @@
               src="./images/app-growing-business.jpg"
               alt="app-growing-business"
             />
-            <h2>Growing Business</h2>
+            <h2 class="container-title">Growing Business</h2>
             <p>Додаток</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer -->
-    <footer>
+    <footer class="footer-back">
       <!-- Логотип WebStudio огорнуто у тег <a> (посилання) -->
-      <a href="./index.html" class="logo"
+      <a href="./index.html" class="logo-footer"
         ><span class="logo-web">Web</span>Studio</a
       >
-      <address>
-        <ul>
+      <!-- Addresses -->
+      <address class="address-footer">
+        <ul class="list">
           <li>
             <!-- Посилання на googlemap -->
-            <a href="" target="_blank" rel="noopener noreferrer nofollow"
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="link"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li>
             <!-- Посилання на почтовий клієнт -->
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="contacts-footer"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
             <!-- Посилання на додаток для телефонних дзвінків -->
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="contacts-footer"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>

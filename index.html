@@ -10,71 +10,77 @@
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="link-decoration">
     <!-- Header content -->
     <header class="haeder-page">
       <!-- Navigation content -->
       <nav>
         <!-- Logo text -->
-        <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span>Studio</a
+        >
         <!-- Navigation to other pages -->
-        <ul class="nav-ul-site">
+        <ul class="nav-ul-site list">
           <!-- Додати підсвічування слів при наведенні курсору мищі -->
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+          <li><a href="./index.html" class="link current">Студія</a></li>
+          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
       <!-- Сontacts -->
-      <ul class="header-contacts">
-        <!-- Додати підсвічування слів при наведенні курсору мищі -->
+      <ul class="header-contacts list">
+        <!-- Є ефект :hover -->
         <li>
           <!-- Посилання на почтовий клієнт -->
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
           <!-- Посилання на додаток для телефонних дзвінків -->
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <!-- Main content -->
     <main>
       <!-- Block Hero -->
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button type="button">Замовити послугу</button>
+        <button type="button" class="hero-button button-title">
+          Замовити послугу
+        </button>
       </section>
       <!-- Hang -->
-      <section>
+      <section class="section">
         <!-- Заголовок "Особливості" необхідно замаскувати стилями -->
-        <h2>Особливості</h2>
-        <ul>
+        <h2 class="saction-title">Особливості</h2>
+        <ul class="hang-list list">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <h3 class="hang-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <h3 class="hang-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
+            <h3 class="hang-title">ПЛАНУВАННЯ</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3 class="hang-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -83,11 +89,10 @@
         </ul>
       </section>
       <!-- What are we doing -->
-      <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+      <section class="section">
+        <h2 class="saction-title">Чим ми займаємося</h2>
+        <ul class="list">
           <li>
-            <!-- Видалено тег <a> -->
             <img
               lang="en"
               src="./images/frontend.jpg"
@@ -97,7 +102,6 @@
             />
           </li>
           <li>
-            <!-- Видалено тег <a> -->
             <img
               lang="en"
               src="./images/uxdesign.jpg"
@@ -107,7 +111,6 @@
             />
           </li>
           <li>
-            <!-- Видалено тег <a> -->
             <img
               lang="en"
               src="./images/uidesign.jpg"
@@ -119,12 +122,10 @@
         </ul>
       </section>
       <!-- Our team. Photos, names -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="section our-team">
+        <h2 class="saction-title">Наша команда</h2>
+        <ul class="list">
           <li>
-            <!-- Видалено тег <a> -->
-            <!-- Видалено тег <figure> -->
             <img
               lang="en"
               src="./images/img-Igor.jpg"
@@ -132,13 +133,10 @@
               width="270"
               height="260"
             />
-            <!-- Видалено тег <figcaption> -->
-            <h3>Ігор Дем'яненко</h3>
+            <h3 class="our-names">Ігор Дем'яненко</h3>
             <p lang="en">Product Designer</p>
           </li>
           <li>
-            <!-- Видалено тег <a> -->
-            <!-- Видалено тег <figure> -->
             <img
               lang="en"
               src="./images/img-Olga.jpg"
@@ -146,13 +144,10 @@
               width="270"
               height="260"
             />
-            <!-- Видалено тег <figcaption> -->
-            <h3>Ольга Рєпіна</h3>
+            <h3 class="our-names">Ольга Рєпіна</h3>
             <p lang="en">Frontend Developer</p>
           </li>
           <li>
-            <!-- Видалено тег <a> -->
-            <!-- Видалено тег <figure> -->
             <img
               lang="en"
               src="./images/img-Nicholas.jpg"
@@ -160,8 +155,7 @@
               width="270"
               height="260"
             />
-            <!-- Видалено тег <figcaption> -->
-            <h3>Микола Тарасов</h3>
+            <h3 class="our-names">Микола Тарасов</h3>
             <p lang="en">Marketing</p>
           </li>
           <li>
@@ -172,31 +166,42 @@
               width="270"
               height="260"
             />
-            <h3>Михайло Єрмаков</h3>
+            <h3 class="our-names">Михайло Єрмаков</h3>
             <p lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer content -->
-    <footer>
+    <footer class="footer-back">
       <!-- Логотип WebStudio огорнуто у тег <a> (посилання) -->
-      <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
-      <address>
-        <ul>
+      <a href="./index.html" class="logo-footer"
+        ><span class="logo-web">Web</span>Studio</a
+      >
+      <!-- Addresses -->
+      <address class="address-footer">
+        <ul class="list">
           <li>
             <!-- Посилання на googlemap -->
-            <a href="" target="_blank" rel="noopener noreferrer nofollow"
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="link"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li>
             <!-- Посилання на почтовий клієнт -->
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="contacts-footer"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
             <!-- Посилання на додаток для телефонних дзвінків -->
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="contacts-footer"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>

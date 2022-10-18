@@ -1,39 +1,114 @@
-/* Колір основного тексту color: #212121; */
-/* Вторинний колір тексту color: #757575; */
-/* Кольори логотипу у header color: #000000; та #2196F3; */
-/* 
-Кольори посилань на сторінки у header:
-Основний - color: #212121;
-:hover color: #2196F3 (accent);
- */
-/* 
-Кольори посилань-контактів у header:
-Основний - color: #757575;
-:hover color: #2196F3 (accent);
- */
-/* Колір заголовків секцій color: #212121; */
-/* Колір заголовку секції Hero (білий) color: #FFFFFF; */
-/* Колір имені кнопки секції Hero (білий) color: #FFFFFF; */
-/* Кольори логотипу у footer (білий) color: #FFFFFF; та #2196F3; */
-/* 
-Колір адрес у footer (білий) color: #FFFFFF;
-Колір посилань e-mail і телефон (Hex #FFFFFF 60%) RGB color: rgba(255, 255, 255, 0.6)
- */
-/* Background-color button in the Section Hero background: #2196F3; (accent) */
-/* Background-color header color: #ECECEC; */
-/* Background-color section Hero color: #2F303A; */
-/* Background-color section "Hang" none */
-/* Background-color section "What are we doing" none */
-/* Background-color section "Our team" color: #F5F4FA; */
-/* Background-color footer color: #2F303A; */
-/* Колір основного тексту section Portfolio color: #212121; */
-/* Вторинний колір тексту section Portfolio color: #757575; */
-/* Кольори посилань section Portfolio:
-   Основний - color: #212121;
-   :focus - color: #FFFFFF; */
-/* Background-color посилань section Portfolio:
-   Основний - color: #F5F4FA;
-   :hover, :focus - color: #2196F3; */
-/* Background-color containers section Portfolio color: #FFFFFF; */
-/* Color border containers section Portfolio color: #EEEEEE;
- */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+/* Styles body */
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+/* Class-utility .list - прибирає маркери у списках */
+.list {
+  list-style: none;
+}
+/* Class-utility .link - прибирає підкреслення у посиланнях (in logo) */
+.link-decoration a {
+  text-decoration: none;
+}
+/* Site nav */
+/* Classes logo */
+.logo {
+  color: #000000;
+}
+.logo-footer {
+  color: #ffffff;
+}
+.logo-web {
+  color: #2196f3;
+}
+/* Styles links in header */
+.nav-ul-site .link {
+  color: var(--title-text-color);
+}
+.nav-ul-site .link:hover,
+.nav-ul-site .link:focus {
+  color: var(--accent-color);
+}
+.nav-ul-site .link.current {
+  color: var(--accent-color);
+}
+.header-contacts .link {
+  color: var(--primary-text-color);
+}
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-color);
+}
+/* Styles for title sections Studio */
+/* Hero section Studio */
+.hero-title {
+  color: #ffffff;
+}
+.saction-title {
+  color: var(--title-text-color);
+}
+.our-names {
+  color: #212121;
+}
+/* Styles of the Hang section */
+.hang-list .hang-title {
+  color: var(--title-text-color);
+}
+.button-title {
+  color: #ffffff;
+}
+.address-footer .link {
+  color: #ffffff;
+}
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* Styles for background */
+/* Class for header */
+.header-page {
+  background-color: #ececec;
+}
+/* Backgroung hero-section */
+.hero {
+  background-color: #2f303a;
+}
+.hero-button {
+  background-color: #2196f3;
+  border-color: #2196f3;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+.footer-back {
+  background-color: #2f303a;
+}
+
+/* Styles of Portfolio page */
+/* Styles for title sections Prtfolio */
+/* Hero section Prtfolio */
+.hero-portfolio-title {
+  color: var(--title-text-color);
+}
+.container-title {
+  color: var(--title-text-color);
+}
+/* Buttons system */
+.button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.container-border > li {
+  border: 1px solid #EEEEEE;
+}
