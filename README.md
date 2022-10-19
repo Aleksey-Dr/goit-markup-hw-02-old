@@ -81,3 +81,175 @@ _/
 /_ Background-color containers section Portfolio background-color: #FFFFFF; _/
 /_ Color border containers section Portfolio color: #EEEEEE;
 _/
+
+18/10/2022
+
+1. Corrected name of class button to filter-button (in the styles.css and portfolio.html).
+2. Replacement completed tegs <a> to <button> in the list of "Portfolio content" section.
+
+19/10/2022
+
+1. Fonts:
+   1.1. Studio.
+   1.1.1. Logo - Raleway;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+
+/_ identical to box height _/
+letter-spacing: 0.03em;
+
+1.1.2. Links of heder - Roboto;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+1.1.3. h1 in hero section - Roboto;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+/_ or 136% _/
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+1.1.4. Button in hero section - Roboto;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+
+/_ identical to box height, or 188% _/
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+1.1.5. h2 - Roboto;
+
+(sections "Heng" "Whot are we doing" and "Our teams")
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+1.1.6. h3 - Roboto;
+
+(section "Hang")
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+(section "Our taems")
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/_ identical to box height _/
+text-align: center;
+letter-spacing: 0.03em;
+
+1.1.7. p - Roboto;
+
+(section "Heng")
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+/_ or 171% _/
+letter-spacing: 0.03em;
+
+(section "Our taems")
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/_ identical to box height _/
+text-align: center;
+letter-spacing: 0.03em;
+
+1.1.8. Links of footer - Roboto;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+/_ or 171% _/
+letter-spacing: 0.03em;
+
+1.2. Portfolio.
+1.2.1. h1 - Roboto;
+1.2.2. h2 - Roboto;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+
+/_ identical to box height, or 200% _/
+letter-spacing: 0.06em;
+
+1.2.3. Button - Roboto;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+
+/_ identical to box height, or 162% _/
+text-align: center;
+letter-spacing: 0.03em;
+
+1.2.4. p - Roboto.
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+
+/_ identical to box height, or 188% _/
+letter-spacing: 0.03em;
+
+1.3. Raleway: 700; Roboto: 400, 500, 700, 900.
+
+2. Add lang="en" to <a> of "Logo text" and "Link to email-app" in <heder> and footer.
+   Add to studio.html and portfolio.html.
+3. Separated classes .header-contacts .link and .container-portfolio .link.
+4. Add cursor: pointer; for button (.hero-button and .filter-button).
+5. Add attributes "width" and "height" to <img> in portfolio.html.
