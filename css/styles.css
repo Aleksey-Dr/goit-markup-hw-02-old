@@ -22,31 +22,46 @@ body {
 .logo {
   color: #000000;
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1, 19em;
   letter-spacing: 0.03em;
 }
 .logo-footer {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.19em;
   letter-spacing: 0.03em;
 }
 .logo-web {
   color: #2196f3;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* Styles links in header */
 .nav-ul-site .link {
   color: var(--title-text-color);
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.14em;
   letter-spacing: 0.02em;
 }
 .nav-ul-site .link:hover,
@@ -58,10 +73,11 @@ body {
 }
 .header-contacts .link {
   color: var(--primary-text-color);
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.14em;
   letter-spacing: 0.02em;
 }
 .header-contacts .link:hover,
@@ -72,10 +88,11 @@ body {
 /* Hero section Studio */
 .hero-title {
   color: #ffffff;
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.36em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -83,10 +100,13 @@ body {
 /* Button in hero section */
 .button-title {
   color: #ffffff;
-  font-style: normal;
+  /* Виправлення ДЗ. Додано властивість font-family: inherit; для наслідування шрифту від <body> */
+  font-family: inherit;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.88em;
   display: flex;
   align-items: center;
   text-align: center;
@@ -94,35 +114,39 @@ body {
 }
 .saction-title {
   color: var(--title-text-color);
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.17em;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .our-names {
   color: #212121;
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.19em;
   text-align: center;
   letter-spacing: 0.03em;
 }
 /* Styles of the Hang section */
 .hang-list .hang-title {
   color: var(--title-text-color);
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.14em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .hang-list p {
   font-size: 14px;
-  line-height: 24px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.71em;
   letter-spacing: 0.03em;
 }
 .our-team p {
@@ -137,8 +161,14 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.71em;
   letter-spacing: 0.03em;
+}
+/* Виправлення ДЗ. Додано hover та focus для классу адреси у футері .address-footer a */
+.address-footer a:hover,
+.address-footer a:focus {
+  color: var(--accent-color);
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
@@ -161,6 +191,11 @@ body {
   border-color: #2196f3;
   cursor: pointer;
 }
+/* Виправлення ДЗ. Додано hover та focus для классу кнопки .hero-button */
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
 .our-team {
   background-color: #f5f4fa;
 }
@@ -176,10 +211,11 @@ body {
 }
 .container-title {
   color: var(--title-text-color);
-  font-style: normal;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 2em;
   letter-spacing: 0.06em;
 }
 .container-portfolio .link {
@@ -187,17 +223,21 @@ body {
 }
 .container-portfolio p {
   font-size: 16px;
-  line-height: 30px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.88em;
   letter-spacing: 0.03em;
 }
 /* Buttons system */
 .filter-button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  font-style: normal;
+  /* Виправлення ДЗ. Додано властивість font-family: inherit; для наслідування шрифту від <body> */
+  font-family: inherit;
+  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
+  line-height: 1.63em;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
@@ -207,10 +247,11 @@ body {
   color: #ffffff;
   background-color: #2196f3;
 }
+/* Виправлення ДЗ. Видалено рамку для <main> */
 /* Frame */
-.main-border {
+/* .main-border {
   border: 1px solid #ececec;
-}
+} */
 .container-border > li {
   border: 1px solid #eeeeee;
 }

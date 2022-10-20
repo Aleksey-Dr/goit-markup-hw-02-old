@@ -253,3 +253,15 @@ letter-spacing: 0.03em;
 3. Separated classes .header-contacts .link and .container-portfolio .link.
 4. Add cursor: pointer; for button (.hero-button and .filter-button).
 5. Add attributes "width" and "height" to <img> in portfolio.html.
+6. Title "Portfolio" and "Heng" hidden in styles (class="visually-hidden").
+
+20/10/2022
+
+Fixing homework.
+
+1. Removed default property (font-style: normal;).
+2. Property (line-height:) indicated in "em".
+3. Add property (font-family: inherit;) to classes .button-title and .filter-button for inherit font-family from <body>.
+4. Add effects :hover and :focus with color #188ce8; to class .hero-button.
+5. Add effects :hover and :focus with color var(--accent-color); to class .contacts-footer.
+6. Add link to googlemaps for <address>.
