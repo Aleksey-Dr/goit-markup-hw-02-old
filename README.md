@@ -265,3 +265,10 @@ Fixing homework.
 4. Add effects :hover and :focus with color #188ce8; to class .hero-button.
 5. Add effects :hover and :focus with color var(--accent-color); to class .contacts-footer.
 6. Add link to googlemaps for <address>.
+
+Additional fixed homework.
+
+1. Property (line-height:) indicated without "em".
+2. Removed class .saction-title for h2 in "Heng" section.
+3. Removed default property (font-weight: 700;) for <h...>.
+4. Removed class hero-portfolio-title for h1 in portfolio.html and styles.css.

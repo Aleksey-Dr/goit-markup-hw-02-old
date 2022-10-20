@@ -22,21 +22,21 @@ body {
 .logo {
   color: #000000;
   font-family: "Raleway", sans-serif;
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 26px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1, 19em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo-footer {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 26px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.19em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo-web {
@@ -57,11 +57,11 @@ body {
 /* Styles links in header */
 .nav-ul-site .link {
   color: var(--title-text-color);
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
   font-weight: 500;
   font-size: 14px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.14em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-ul-site .link:hover,
@@ -73,11 +73,11 @@ body {
 }
 .header-contacts .link {
   color: var(--primary-text-color);
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
   font-weight: 500;
   font-size: 14px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.14em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .header-contacts .link:hover,
@@ -88,11 +88,11 @@ body {
 /* Hero section Studio */
 .hero-title {
   color: #ffffff;
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
   font-weight: 900;
   font-size: 44px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.36em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -102,11 +102,11 @@ body {
   color: #ffffff;
   /* Виправлення ДЗ. Додано властивість font-family: inherit; для наслідування шрифту від <body> */
   font-family: inherit;
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
   font-weight: 700;
   font-size: 16px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.88em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -114,39 +114,39 @@ body {
 }
 .saction-title {
   color: var(--title-text-color);
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
-  font-weight: 700;
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена для h властивість за замовчуванням font-weight: 700; */
   font-size: 36px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.17em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .our-names {
   color: #212121;
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
   font-weight: 500;
   font-size: 16px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.19em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
 /* Styles of the Hang section */
 .hang-list .hang-title {
   color: var(--title-text-color);
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
-  font-weight: 700;
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена для h властивість за замовчуванням font-weight: 700; */
   font-size: 14px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.14em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .hang-list p {
   font-size: 14px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.71em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .our-team p {
@@ -161,8 +161,8 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.71em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 /* Виправлення ДЗ. Додано hover та focus для классу адреси у футері .address-footer a */
@@ -206,16 +206,13 @@ body {
 /* Styles of Portfolio page */
 /* Styles for title sections Prtfolio */
 /* Hero section Prtfolio */
-.hero-portfolio-title {
-  color: var(--title-text-color);
-}
 .container-title {
   color: var(--title-text-color);
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
-  font-weight: 700;
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена для h властивість за замовчуванням font-weight: 700; */
   font-size: 18px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 2em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .container-portfolio .link {
@@ -223,8 +220,8 @@ body {
 }
 .container-portfolio p {
   font-size: 16px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.88em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 /* Buttons system */
@@ -233,11 +230,11 @@ body {
   background-color: #f5f4fa;
   /* Виправлення ДЗ. Додано властивість font-family: inherit; для наслідування шрифту від <body> */
   font-family: inherit;
-  /* Виправлення ДЗ. Видалено властивість за замовчуванням font-style: normal; */
+  /* Виправлення ДЗ. Видалена властивість за замовчуванням font-style: normal; */
   font-weight: 500;
   font-size: 16px;
-  /* Виправлення ДЗ. Властивість line-height: зазначено у "em" */
-  line-height: 1.63em;
+  /* Виправлення ДЗ. Властивість line-height: зазначено без "em" */
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
